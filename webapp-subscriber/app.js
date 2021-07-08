@@ -24,7 +24,6 @@ oDbsenzor0.on('value', function (oOdgovorPosluzitelja) {
             vlaz: oSenzor.Vlaznost
         })
     })
-    console.log(aSenzor)
     UcitajPodatke();
 })
 
@@ -39,17 +38,3 @@ function UcitajPodatke() {
         table = $('#TablicaSenzor0').DataTable();
     })
 };
-
-function LiveData() {
-    var client = mqtt.connect('ws://localhost/mqtt2/');
-    client.on('connect', function () {
-        client.subscribe('temp')
-        client.subscribe('humid')
-    });
-    console.log('Subsciber #1 is online!');
-    console.log('Receiving message...');
-    client.on('message', function (topic, message) {
-        context = message.toString();
-        window.alert(context)
-    });
-} //ne radi

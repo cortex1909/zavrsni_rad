@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 700px;
+  font-family: 'Roboto', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  height: 100vh;
+  margin: 10px 100px;
+}
+
+.btn {
+  width: 100%;
+  outline: none;
+  background-color: rgba(17, 148, 0, 0.575);
+  border: none;
+  text-decoration: none;
+  color: white;
+  padding: 10px 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 250px;
+}
+
+.connection {
+  background-color: #ddd;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.subscribe {
+  background-color: #ddd;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.publish {
+  background-color: #ddd;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+#messages {
+  background-color: yellow;
+  font-size: 3;
+  font-weight: bold;
+  line-height: 140%;
+}
+
+#status {
+  background-color: red;
+  font-size: 4;
+  font-weight: bold;
+  color: white;
+  line-height: 140%;
+  margin-bottom: 10px;
+}
+
+.nav-link {
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: rgba(27, 228, 0, 0.315);
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 700px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 100vh;
+    margin: 10px 100px;
+}
+
+.btn {
+    width: 100%;
+    outline: none;
+    background-color: rgba(17, 148, 0, 0.575);
+    border: none;
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+
+.connection {
+    background-color: #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.subscribe {
+    background-color: #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.publish {
+    background-color: #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#messages {
+    background-color: yellow;
+    font-size: 3;
+    font-weight: bold;
+    line-height: 140%;
+}
+
+#status {
+    background-color: red;
+    font-size: 4;
+    font-weight: bold;
+    color: white;
+    line-height: 140%;
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: rgba(27, 228, 0, 0.315);
+}
