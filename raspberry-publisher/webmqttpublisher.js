@@ -53,14 +53,11 @@ client.on('connect', function () {
 
 setInterval(function () {
     sKey = firebase.database().ref().child('ts0').push().key;
-    let nDatumVrijeme;
-    let nTemperatura;
-    let nVlaznost;
     let currentdate = new Date();
     let datetime = currentdate.getDate() + "/" +
         (currentdate.getMonth() + 1) + "/" +
         currentdate.getFullYear() + " " +
-        currentdate.getHours() + ":" +
+        addZero(currentdate.getHours()) + ":" +
         addZero(currentdate.getMinutes()) + ":" +
         addZero(currentdate.getSeconds());
 
